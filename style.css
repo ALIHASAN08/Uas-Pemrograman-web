@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #502c2c;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('image/images.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.nav ul li:first-child {
+    margin-left: 0;
+}
+
+.logo p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    color: rgb(66, 43, 43);
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.header span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #335981;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.col-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
